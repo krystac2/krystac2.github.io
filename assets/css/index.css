@@ -1,0 +1,257 @@
+
+.center{
+	display: block;
+	margin-right: auto;
+	margin-left: 0px;
+	width: 65%;
+}
+
+.pic1{
+	height: 137px;
+	background: url(../imgs/IMG_8319.jpg);
+	background-size: cover;
+	width: 50%;
+	background-repeat: no-repeat;
+	background-position: center;
+	overflow: hidden;
+	transition: transform .5s;
+}
+
+.pic2{
+	width: 50%;
+	height: 137px;
+	background: url(../imgs/IMG_8329.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	overflow: hidden;
+}
+
+.pic3{
+	width: 50%;
+	height: 137px;
+	background-image: url(../imgs/IMG_8322.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	overflow: hidden;
+}
+
+.pic4{
+	width: 50%;
+	height: 137px;
+	background-image: url(../imgs/IMG_8324.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	overflow: hidden;
+}
+
+.pic5{
+	width: 50%;
+	height: 137px;
+	background-image: url(../imgs/IMG_8327.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	overflow: hidden;
+}
+
+.pic6{
+	width: 50%;
+	height: 137px;
+	background-image: url(../imgs/IMG_8326.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	overflow: hidden;
+}
+
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+.name1 {
+	font-family: azo-sans-web, sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 23px;
+	background-color: #FFAAEE;
+	color: #F1F1F1;
+	width:50%;
+	height: 137px;
+	padding: 50px;
+	text-align: center;
+	letter-spacing: 5px;
+}
+
+.name1:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+a { color: white; }
+
+.flex-container {
+	width: 100;
+		display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.pair {
+	background-color: aqua;
+	display: flex;
+	width: 100%	
+}
+
+.pair:nth-child(even) {
+	flex-direction: row-reverse;
+}
+
+.title{
+	font-size: 70px;
+	color: #FFAAEE;
+	font-family: azo-sans-web, sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	background-color:#F1F1F1;
+	text-align: right;
+	padding-right: 10px;
+}
+.namesection{
+	font-size: 38px;
+	color: #FFAAEE;
+	font-family: azo-sans-web, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	background-color:#F1F1F1;
+	text-align: left;
+	margin-left: 34px;
+	margin-top: 52px;
+	margin-bottom:47px;
+	letter-spacing: 15px;
+}
+
+.items{
+	font-size: 16px;
+	color: #FFAAEE;
+	font-family: azo-sans-web, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	text-align: left;
+	margin-left: 34px;
+}
+
+.price{
+	font-size: 16px;
+	color: #FFAAEE;
+	font-family: azo-sans-web, sans-serif;
+	font-weight: 70;
+	font-style: normal;
+	text-align: left;
+	margin-left: 10px;
+	margin-right: 76px;
+}
+
+.sub {
+	font-size: 16px;
+	color: #FFAAEE;
+	font-family: azo-sans-web, sans-serif;
+	font-weight: 70;
+	font-style: italic;
+	text-align: left;
+	letter-spacing: 5px;
+}
+
+.description{
+	font-size: 16px;
+	color: #FFAAEE;
+	font-family: azo-sans-web, sans-serif;
+	font-weight: 70;
+	font-style: normal;
+	text-align: left;
+	margin-bottom: 15px;
+}
+
+#menu li{
+	margin-right: 76px; 
+}
+
+
+.cafename{
+	font-family: azo-sans-web, sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 50px;
+	color: #FFAAEE;
+	position: relative;
+	bottom: 700px;
+	left: 50px;
+}
+
+.address{
+	font-family: azo-sans-web, sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 25px;
+	color: #FFAAEE;
+	position:relative;
+	bottom: 700px;
+	left: 50px;
+}
+
+.resize{
+	width: 250px;
+	height: auto;
+	top: -250px;
+	right: -430px;
+	position: relative;
+}
+
+.resize:hover{
+	transform: rotate(180deg);
+}
+
+.hour{
+	font-family: azo-sans-web, sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 50px;
+	color: #FFAAEE;
+	position: relative;
+	bottom: 880px;
+	left: 900px;
+}
+
+.bus-hours{
+	font-family: azo-sans-web, sans-serif;
+	font-weight: 800;
+	font-style: normal;
+	font-size: 25px;
+	color: #FFAAEE;
+	position:relative;
+	bottom: 880px;
+	left: 900px;
+}
+
+.time{
+	font-size: 25px;
+	color: #FFAAEE;
+	font-family: azo-sans-web, sans-serif;
+	font-weight: 450;
+	font-style: normal;
+	text-align: left;
+	margin-left: 10px;
+	margin-right: 76px;
+}
